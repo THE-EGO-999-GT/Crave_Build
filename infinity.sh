@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Cleaning up
+rm -rf out
 rm -rf .repo/local_manifests/
 rm -rf device/xiaomi/haydn
 rm -rf device/xiaomi/sm8350-common
