@@ -3,7 +3,8 @@
 #  ⚡ Crave_Build  ⚡
 ⚡ Project Infinity-X ⚡
 
-**One-Click Build Script for Infinity-X A16 on Crave.io**
+**One-Click Build Script for Infinity-X A17
+on Crave.io**
 
 </div>
 
