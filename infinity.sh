@@ -17,14 +17,14 @@ rm -rf hardware/dolby
 
 
 # Repo init rom
-repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 17 -g default,-mips,-darwin,-notdefault
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 
 # Local manifests
-git clone https://github.com/THE-EGO-999-GT/local_manifest.git .repo/local_manifests -b inf
+git clone https://github.com/THE-EGO-999-GT/local_manifest.git .repo/local_manifests -b inf-17
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
