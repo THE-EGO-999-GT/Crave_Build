@@ -17,14 +17,14 @@ rm -rf hardware/dolby
 
 
 # Repo init rom
-repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
+repo init -u https://github.com/Lunaris-AOSP/android -b 16.2 --git-lfs --depth=1
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 
 # Local manifests
-git clone https://github.com/THE-EGO-999-GT/local_manifest.git .repo/local_manifests -b inf
+git clone https://github.com/THE-EGO-999-GT/local_manifest.git .repo/local_manifests -b luna
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -38,11 +38,11 @@ echo "============="
 
 
 # Set up build environment
-source build/envsetup.sh
+. b*/env*
 echo "============="
 
 # Lunch
-lunch infinity_haydn-user
+lunch lineage_haydn-bp4a-user
 
 # Build
 m bacon -j$(nproc --all)
