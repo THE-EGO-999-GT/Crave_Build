@@ -1,7 +1,7 @@
 <div align="center">
 
 #  ⚡ Crave_Build  ⚡
-⚡ Project Infinity-X ⚡
+⚡ Cr Droid ⚡
 
 **One-Click Build Script for Infinity-X A16 on Crave.io**
 
@@ -14,4 +14,4 @@
 Run this command in your Crave.io terminal:
 
 ```bash
-curl  -fsSL https://raw.githubusercontent.com/THE-EGO-999-GT/Crave_Build/inf/infinity.sh | bash
+curl  -fsSL https://raw.githubusercontent.com/THE-EGO-999-GT/Crave_Build/cr/cr.sh | bash
