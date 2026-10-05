@@ -3,7 +3,7 @@
 #  ⚡ Crave_Build  ⚡
 ⚡ Cr Droid ⚡
 
-**One-Click Build Script for Infinity-X A16 on Crave.io**
+**One-Click Build Script for CrDroid A16 on Crave.io**
 
 </div>
 
